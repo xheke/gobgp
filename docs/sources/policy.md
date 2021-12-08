@@ -643,7 +643,7 @@ evaluate routes from neighbors, if matched, action will be applied.
 
   | Element     | Description                                                                      | Example    |
   |-------------|----------------------------------------------------------------------------------|------------|
-  | options     | operator to manipulate Community attribute in the route                          | "ADD"      |
+  | options     | operator to manipulate Community attribute in the route [more action?]           | "ADD"      |
   | communities | communities used to manipulate the route's community according to options below | "65100:20" |
 
 - policy-definitions.statements.actions.bgp-actions.set-as-path-prepend
